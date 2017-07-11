@@ -1,0 +1,87 @@
+
+body {
+	padding: 40px;
+}
+
+body, p { font-size: 14px; }
+
+.border-between > [class*='col-']:before {
+   background: #e3e3e3;
+   bottom: 0;
+   content: " ";
+   left: 0;
+   position: absolute;
+   width: 1px;
+   top: 0;
+}
+
+.border-between > [class*='col-']:first-child:before {
+   display: none;
+}
+
+#employeeList > li{
+	list-style-type: none;
+	padding: 0;
+	margin-top: 5px;
+}
+
+#employeeList > li > button{
+	margin-left: 10px;
+	float: right;
+}
+
+.btnFloat{
+	float: right;
+	 margin-left: 15px;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 3px solid transparent;
+    border-radius: 10px;
+}
+
+.liRowMargin{
+	margin-top: 5px;
+	background-color: rgba(81, 108, 156, 0.75);
+}
+
+.btnAddRender{
+	float: right;
+	 margin-left: 15px;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 3px solid transparent;
+    border-radius: 10px;
+}
+
+
+
